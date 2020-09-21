@@ -9,21 +9,55 @@
 /* Begin PBXBuildFile section */
 		DE4FB4782516EB4A000D67FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4FB4772516EB4A000D67FA /* AppDelegate.swift */; };
 		DE4FB47A2516EB4A000D67FA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4FB4792516EB4A000D67FA /* SceneDelegate.swift */; };
-		DE4FB47C2516EB4A000D67FA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4FB47B2516EB4A000D67FA /* ContentView.swift */; };
+		DE4FB47C2516EB4A000D67FA /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4FB47B2516EB4A000D67FA /* LoginView.swift */; };
 		DE4FB47E2516EB50000D67FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE4FB47D2516EB50000D67FA /* Assets.xcassets */; };
 		DE4FB4812516EB50000D67FA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE4FB4802516EB50000D67FA /* Preview Assets.xcassets */; };
 		DE4FB4842516EB50000D67FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE4FB4822516EB50000D67FA /* LaunchScreen.storyboard */; };
+		DE4FB48E2517DA23000D67FA /* UIApplicationExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4FB48D2517DA23000D67FA /* UIApplicationExt.swift */; };
+		DE4FB4902517DA57000D67FA /* SignInWithApple.swift .swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4FB48F2517DA57000D67FA /* SignInWithApple.swift .swift */; };
+		DE4FB4922517DDB8000D67FA /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4FB4912517DDB8000D67FA /* SignupView.swift */; };
+		DE4FB4942517E8F1000D67FA /* RecoverPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4FB4932517E8F1000D67FA /* RecoverPasswordView.swift */; };
+		DEE1F4FD25182870009F7F2F /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1F4FC25182870009F7F2F /* UIViewExt.swift */; };
+		DEE1F50225183E0B009F7F2F /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1F50125183E0B009F7F2F /* DetailsView.swift */; };
+		DEE1F50C2518C0F6009F7F2F /* AccountList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1F50B2518C0F6009F7F2F /* AccountList.swift */; };
+		DEE1F5102518C43C009F7F2F /* AccountUpdateList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1F50E2518C43C009F7F2F /* AccountUpdateList.swift */; };
+		DEE1F5112518C43C009F7F2F /* AccountUpdateDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1F50F2518C43C009F7F2F /* AccountUpdateDetail.swift */; };
+		DEE1F5142518C529009F7F2F /* AccountUpdateStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1F5132518C529009F7F2F /* AccountUpdateStore.swift */; };
+		DEE1F5172518C7D4009F7F2F /* More.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1F5162518C7D4009F7F2F /* More.swift */; };
+		DEE1F51B2518CFBC009F7F2F /* AccountBarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1F51A2518CFBC009F7F2F /* AccountBarChart.swift */; };
+		DEE1F51F2518D5A3009F7F2F /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1F51D2518D5A2009F7F2F /* Helpers.swift */; };
+		DEE1F5202518D5A3009F7F2F /* BarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1F51E2518D5A3009F7F2F /* BarChartView.swift */; };
+		DEE1F5252518D690009F7F2F /* BarChartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1F5222518D68F009F7F2F /* BarChartCell.swift */; };
+		DEE1F5262518D690009F7F2F /* BarChartRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1F5232518D690009F7F2F /* BarChartRow.swift */; };
+		DEE1F5272518D690009F7F2F /* LabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1F5242518D690009F7F2F /* LabelView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DE4FB4742516EB4A000D67FA /* LBGAccountOverView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LBGAccountOverView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE4FB4772516EB4A000D67FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE4FB4792516EB4A000D67FA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DE4FB47B2516EB4A000D67FA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DE4FB47B2516EB4A000D67FA /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		DE4FB47D2516EB50000D67FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE4FB4802516EB50000D67FA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DE4FB4832516EB50000D67FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE4FB4852516EB50000D67FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE4FB48D2517DA23000D67FA /* UIApplicationExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIApplicationExt.swift; sourceTree = "<group>"; };
+		DE4FB48F2517DA57000D67FA /* SignInWithApple.swift .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SignInWithApple.swift .swift"; sourceTree = "<group>"; };
+		DE4FB4912517DDB8000D67FA /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
+		DE4FB4932517E8F1000D67FA /* RecoverPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecoverPasswordView.swift; sourceTree = "<group>"; };
+		DEE1F4FC25182870009F7F2F /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
+		DEE1F50125183E0B009F7F2F /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		DEE1F50B2518C0F6009F7F2F /* AccountList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountList.swift; sourceTree = "<group>"; };
+		DEE1F50E2518C43C009F7F2F /* AccountUpdateList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountUpdateList.swift; sourceTree = "<group>"; };
+		DEE1F50F2518C43C009F7F2F /* AccountUpdateDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountUpdateDetail.swift; sourceTree = "<group>"; };
+		DEE1F5132518C529009F7F2F /* AccountUpdateStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountUpdateStore.swift; sourceTree = "<group>"; };
+		DEE1F5162518C7D4009F7F2F /* More.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = More.swift; sourceTree = "<group>"; };
+		DEE1F51A2518CFBC009F7F2F /* AccountBarChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountBarChart.swift; sourceTree = "<group>"; };
+		DEE1F51D2518D5A2009F7F2F /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		DEE1F51E2518D5A3009F7F2F /* BarChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarChartView.swift; sourceTree = "<group>"; };
+		DEE1F5222518D68F009F7F2F /* BarChartCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarChartCell.swift; sourceTree = "<group>"; };
+		DEE1F5232518D690009F7F2F /* BarChartRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarChartRow.swift; sourceTree = "<group>"; };
+		DEE1F5242518D690009F7F2F /* LabelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +90,30 @@
 		DE4FB4762516EB4A000D67FA /* LBGAccountOverView */ = {
 			isa = PBXGroup;
 			children = (
+				DEE1F5222518D68F009F7F2F /* BarChartCell.swift */,
+				DEE1F5232518D690009F7F2F /* BarChartRow.swift */,
+				DEE1F5242518D690009F7F2F /* LabelView.swift */,
+				DEE1F51E2518D5A3009F7F2F /* BarChartView.swift */,
+				DEE1F51D2518D5A2009F7F2F /* Helpers.swift */,
+				DEE1F50B2518C0F6009F7F2F /* AccountList.swift */,
+				DEE1F50F2518C43C009F7F2F /* AccountUpdateDetail.swift */,
+				DEE1F50E2518C43C009F7F2F /* AccountUpdateList.swift */,
+				DEE1F5132518C529009F7F2F /* AccountUpdateStore.swift */,
+				DE4FB48D2517DA23000D67FA /* UIApplicationExt.swift */,
+				DE4FB48F2517DA57000D67FA /* SignInWithApple.swift .swift */,
 				DE4FB4772516EB4A000D67FA /* AppDelegate.swift */,
 				DE4FB4792516EB4A000D67FA /* SceneDelegate.swift */,
-				DE4FB47B2516EB4A000D67FA /* ContentView.swift */,
+				DE4FB47B2516EB4A000D67FA /* LoginView.swift */,
 				DE4FB47D2516EB50000D67FA /* Assets.xcassets */,
 				DE4FB4822516EB50000D67FA /* LaunchScreen.storyboard */,
 				DE4FB4852516EB50000D67FA /* Info.plist */,
 				DE4FB47F2516EB50000D67FA /* Preview Content */,
+				DE4FB4912517DDB8000D67FA /* SignupView.swift */,
+				DE4FB4932517E8F1000D67FA /* RecoverPasswordView.swift */,
+				DEE1F4FC25182870009F7F2F /* UIViewExt.swift */,
+				DEE1F50125183E0B009F7F2F /* DetailsView.swift */,
+				DEE1F5162518C7D4009F7F2F /* More.swift */,
+				DEE1F51A2518CFBC009F7F2F /* AccountBarChart.swift */,
 			);
 			path = LBGAccountOverView;
 			sourceTree = "<group>";
@@ -146,9 +197,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE4FB4922517DDB8000D67FA /* SignupView.swift in Sources */,
+				DE4FB48E2517DA23000D67FA /* UIApplicationExt.swift in Sources */,
+				DEE1F51B2518CFBC009F7F2F /* AccountBarChart.swift in Sources */,
+				DEE1F50225183E0B009F7F2F /* DetailsView.swift in Sources */,
+				DEE1F5262518D690009F7F2F /* BarChartRow.swift in Sources */,
+				DEE1F5252518D690009F7F2F /* BarChartCell.swift in Sources */,
+				DE4FB4902517DA57000D67FA /* SignInWithApple.swift .swift in Sources */,
+				DEE1F5172518C7D4009F7F2F /* More.swift in Sources */,
 				DE4FB4782516EB4A000D67FA /* AppDelegate.swift in Sources */,
+				DEE1F5272518D690009F7F2F /* LabelView.swift in Sources */,
+				DEE1F5202518D5A3009F7F2F /* BarChartView.swift in Sources */,
+				DEE1F5102518C43C009F7F2F /* AccountUpdateList.swift in Sources */,
+				DEE1F5142518C529009F7F2F /* AccountUpdateStore.swift in Sources */,
+				DEE1F50C2518C0F6009F7F2F /* AccountList.swift in Sources */,
+				DEE1F5112518C43C009F7F2F /* AccountUpdateDetail.swift in Sources */,
+				DEE1F51F2518D5A3009F7F2F /* Helpers.swift in Sources */,
+				DEE1F4FD25182870009F7F2F /* UIViewExt.swift in Sources */,
 				DE4FB47A2516EB4A000D67FA /* SceneDelegate.swift in Sources */,
-				DE4FB47C2516EB4A000D67FA /* ContentView.swift in Sources */,
+				DE4FB47C2516EB4A000D67FA /* LoginView.swift in Sources */,
+				DE4FB4942517E8F1000D67FA /* RecoverPasswordView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
